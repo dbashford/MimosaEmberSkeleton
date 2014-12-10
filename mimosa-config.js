@@ -26,10 +26,9 @@ exports.config = {
     'minify-js',
     'minify-css',
     'minify-img',
-    'require@3.0.0',
+    'require@3.1.2',
     'web-package',
-    'handlebars-on-window',
-    'fix-rjs-ember'
+    'handlebars-on-window'
   ],
   sass: {
     // want to use node-sass rather than ruby compiler
@@ -80,7 +79,8 @@ exports.config = {
     copy: {
       mainOverrides: {
         showdown: ["compressed/showdown.js"],
-        bootstrap: ["dist/css/bootstrap.css", "dist/js/bootstrap.js"]
+        bootstrap: ["dist/css/bootstrap.css", "dist/js/bootstrap.js"],
+        ember:["ember.js", "ember.prod.js"]
       }
     }
   },
