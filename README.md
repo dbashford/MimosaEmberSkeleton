@@ -1,7 +1,9 @@
 MimosaEmberSkeleton
 ===================
 
-A skeleton for Ember apps which includes testing support and the ability to optimize/minify/concatenate/package your application for deployment.
+A skeleton for Ember apps which includes Handlebars support, testing support and the ability to optimize/minify/concatenate/package your application for deployment.
+
+Looking for HTMLBars support?  There's a [separate skeleton for that](https://github.com/dbashford/MimosaEmberHTMLBarsSkeleton).
 
 ## Setup
 * `npm install -g mimosa`
@@ -23,7 +25,7 @@ A skeleton for Ember apps which includes testing support and the ability to opti
 * (In 2nd terminal window) `./test.sh`
 
 ## To Package App for Deployment
-* `mimosa build -omp` (__o__ptimize, __m__inify, __p__ackage)
+* `mimosa build -omp` (optimize, minify, package)
 * cd `dist`
 * `node app.js`
 * Open app at http://localhost:3000
