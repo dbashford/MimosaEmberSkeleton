@@ -37,6 +37,7 @@ exports.config = {
   require: {
     optimize: {
       overrides: {
+        wrapShim: true,
         paths: {
           // want to use ember.prod for packaging
           ember: 'vendor/ember/ember.prod'
