@@ -86,9 +86,14 @@ exports.config = {
     }
   },
   server: {
+    port: 3005,
     views: {
       compileWith: "handlebars",
       extension: "hbs"
+    },
+    defaultServer: {
+      enabled: false,
+      description: "* You must not being using Mimosa's hosted server.  Your `server.defaultServer.enabled` value should be set to false"
     }
-  }
+  },
 };
