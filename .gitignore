@@ -2,3 +2,8 @@ node_modules
 public
 .mimosa
 dist
+bower_components
+test.sh
+package-lock.json
+ember-qunit
+commit_exception.list
